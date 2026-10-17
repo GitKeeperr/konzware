@@ -1,0 +1,133 @@
+# Rust
+/src-tauri/target/
+/src-tauri/target-release/
+/src-tauri/target-test/
+/src-tauri/gen/
+Cargo.lock
+
+# Node.js
+node_modules/
+dist/
+.env
+*.env
+.env.*
+.npmrc
+
+# Python
+__pycache__/
+tools/nametag_probe/*.dll
+tools/nametag_probe/*.obj
+tools/nametag_probe/*.exp
+tools/nametag_probe/*.lib
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.spec
+
+# Sidecars & Resources
+
+# OS & IDE
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+.cursor/
+.cursorrules
+.windsurf/
+.claude/
+.gemini/
+.copilot/
+.freebuff/
+
+# Local App Data
+config.json
+*.bak
+AssetSwapper_Decrypted/
+log.txt
+*.log
+GEMINI.md
+CLAUDE.md
+AGENTS.md
+.agent/
+brain/
+scratch/
+inspect_upk.py
+body_paint_modifier.py
+psynet_paint_injector.py
+*.py
+
+# PsyNet MITM — captures, labs, research docs (keep locally; don't commit)
+tools/psynet_proxy/go_mitm/captures/
+tools/psynet_proxy/psynet_capture/
+tools/psynet_proxy/shift_study/
+tools/psynet_proxy/go_mitm/openssl_trust/
+tools/psynet_proxy/go_mitm/openssl_trust/backups/
+tools/psynet_proxy/SHIFT_SPOOFER_HOW_IT_WORKS.md
+tools/psynet_proxy/SHIFT_PROXY_NOTES.md
+tools/psynet_proxy/go_mitm/NAME_SPOOF_EXPERIMENT.md
+tools/psynet_proxy/**/*.tmp
+tools/psynet_proxy/**/*.pid
+tools/psynet_proxy/**/*.exe~
+tools/psynet_proxy/frida/node_modules/
+tools/psynet_proxy/frida/dist/
+tools/psynet_proxy/frida/_scan_*.txt
+tools/psynet_proxy/go_mitm/psynet_proxy.exe
+tools/psynet_proxy/go_mitm/psynet_config.json
+tools/psynet_proxy/go_mitm/psynet_config.lab_*.json
+
+# Local PowerShell labs / one-shot repair (app only invokes start_from_app.ps1 + stop_proxy.ps1)
+tools/psynet_proxy/test/
+tools/psynet_proxy/test/archive_go/
+
+# Local Apple Color Emoji TTF (copyrighted; drop in manually — see ui/fonts/README.txt)
+ui/fonts/AppleColorEmoji.ttf
+ui/fonts/*.ttf
+!ui/fonts/README.txt
+
+.signing/
+
+tools/fonts/*.ttf
+latest.json
+
+# Name-spoof implementation kept local-only (removed from repo)
+tools/psynet_proxy/private/
+tools/psynet_proxy/test/
+
+# scratch cargo check dir
+src-tauri/target-check/
+
+# Build artifacts & binaries
+*.exe
+*.dll
+build_log.txt
+
+# Snapshots and raw UPK dumps
+tools/snapshots/
+*.upk
+*.upk.before
+
+# Local build overrides
+src-tauri/tauri.local-build.conf.json
+*.key
+# Native proxy embeds leaf private keys at compile time (include_bytes!).
+# Keep the CA private key local-only; ship leaf keys with the certs.
+!src-tauri/resources/certs/leaf_*.key
