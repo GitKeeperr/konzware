@@ -38,7 +38,7 @@ if [[ -f "$PKG_PATH" ]]; then
     echo "    package.json synced to $VERSION"
 fi
 
-echo "==> Building VelocityRL Linux..."
+echo "==> Building Konzware Linux..."
 if command -v npm &> /dev/null && [ -d "$SCRIPT_DIR/node_modules" ]; then
     npm run tauri build "$@"
 else

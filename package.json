@@ -1,12 +1,12 @@
 {
   "name": "konzware",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
     "konzware": "dist/index.js"
   },
-  "description": "Konzware - reworked",
+  "description": "Konzware",
   "scripts": {
     "build": "echo 'Building UI...'; node -v",
     "dev": "tauri dev",

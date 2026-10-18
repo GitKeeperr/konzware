@@ -32,11 +32,11 @@ if (-not (Test-Path $sigPath)) {
 }
 $signature = (Get-Content $sigPath -Raw).Trim()
 
-$url = "https://github.com/bitsfdb/VelocityRL/releases/download/$Tag/$($setup.Name)"
+$url = "https://github.com/GitKeeperr/konzware/releases/download/$Tag/$($setup.Name)"
 
 $json = [ordered]@{
     version  = $version
-    notes    = "VelocityRL v$version`n`nSee the in-app What's New for the full changelog."
+    notes    = "Konzware v$version`n`nSee the in-app What's New for the full changelog."
     pub_date = (Get-Date).ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ssZ")
     platforms = [ordered]@{
         "windows-x86_64" = [ordered]@{
@@ -57,4 +57,4 @@ Write-Host "    url:     $url"
 Write-Host "    sig:     $sigPath"
 Write-Host ""
 Write-Host "    Edit 'notes' if you want custom release notes, then upload this file"
-Write-Host "    so https://api.velocityrl.tech/latest.json serves it."
+Write-Host "    so https://github.com/GitKeeperr/konzware/releases/latest/download/latest.json serves it."
