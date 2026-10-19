@@ -1,0 +1,367 @@
+[2026-10-18 17:53:58] [injector-build] Building KonzwareInjector.dll (Release|x64)...
+[2026-10-18 17:53:58] [injector-build] Using MSBuild: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+[2026-10-18 17:53:59] [injector-build] msbuild: 
+[2026-10-18 17:54:00] [injector-build] msbuild:   Component.cpp
+[2026-10-18 17:54:00] [injector-build] msbuild:   Console.cpp
+[2026-10-18 17:54:00] [injector-build] msbuild:   Core.cpp
+[2026-10-18 17:54:00] [injector-build] msbuild:   Events.cpp
+[2026-10-18 17:54:00] [injector-build] msbuild:   Instances.cpp
+[2026-10-18 17:54:00] [injector-build] msbuild:   Ipc.cpp
+[2026-10-18 17:54:00] [injector-build] msbuild:   Main.cpp
+[2026-10-18 17:54:00] [injector-build] msbuild:   Spawn.cpp
+[2026-10-18 17:54:00] [injector-build] msbuild:   dllmain.cpp
+[2026-10-18 17:54:00] [injector-build] msbuild:   Colors.cpp
+[2026-10-18 17:54:00] [injector-build] msbuild:   Formatting.cpp
+[2026-10-18 17:54:00] [injector-build] msbuild:   Math.cpp
+[2026-10-18 17:54:00] [injector-build] msbuild:   Memory.cpp
+[2026-10-18 17:54:00] [injector-build] msbuild:   UnrealMemory.cpp
+[2026-10-18 17:54:00] [injector-build] msbuild:   pch.cpp
+[2026-10-18 17:54:00] [injector-build] msbuild:   GameDefines.cpp
+[2026-10-18 17:54:00] [injector-build] msbuild:   AkAudio_classes.cpp
+[2026-10-18 17:54:00] [injector-build] msbuild:   Core_classes.cpp
+[2026-10-18 17:54:00] [injector-build] msbuild:   Engine_classes.cpp
+[2026-10-18 17:54:00] [injector-build] msbuild:   GFxUI_classes.cpp
+[2026-10-18 17:54:00] [injector-build] msbuild:   IpDrv_classes.cpp
+[2026-10-18 17:54:00] [injector-build] msbuild:   OnlineSubsystemEOS_classes.cpp
+[2026-10-18 17:54:00] [injector-build] msbuild:   ProjectX_classes.cpp
+[2026-10-18 17:54:00] [injector-build] msbuild:   TAGame_classes.cpp
+[2026-10-18 17:54:01] [injector-build] msbuild: C:\Users\Konzei\dev\konzware\injector\Components\Components\Ipc.cpp(1,9): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-18 17:54:01] [injector-build] msbuild:       C:\Users\Konzei\dev\konzware\injector\Components\Components\Ipc.cpp(1,9):
+[2026-10-18 17:54:01] [injector-build] msbuild:       '_CRT_SECURE_NO_WARNINGS' previously declared on the command line
+[2026-10-18 17:54:01] [injector-build] msbuild:   
+[2026-10-18 17:54:01] [injector-build] msbuild: C:\Users\Konzei\dev\konzware\injector\Components\Components\Spawn.cpp(1,9): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-18 17:54:01] [injector-build] msbuild:       C:\Users\Konzei\dev\konzware\injector\Components\Components\Spawn.cpp(1,9):
+[2026-10-18 17:54:01] [injector-build] msbuild:       '_CRT_SECURE_NO_WARNINGS' previously declared on the command line
+[2026-10-18 17:54:01] [injector-build] msbuild:   
+[2026-10-18 17:54:03] [injector-build] msbuild:   WinDrv_classes.cpp
+[2026-10-18 17:54:06] [injector-build] msbuild: C:\Users\Konzei\dev\konzware\injector\Components\Components\Ipc.cpp(336,2): error C2352: 'IpcComponent::WorkerLoop': a call of a non-static member function requires an object [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-18 17:54:06] [injector-build] msbuild:       C:\Users\Konzei\dev\konzware\injector\Components\Components\Ipc.hpp(50,7):
+[2026-10-18 17:54:06] [injector-build] msbuild:       see declaration of 'IpcComponent::WorkerLoop'
+[2026-10-18 17:54:06] [injector-build] msbuild:   
+[2026-10-18 17:54:06] [injector-build] msbuild:   XAudio2_classes.cpp
+[2026-10-18 17:54:06] [injector-build] msbuild: C:\Users\Konzei\dev\konzware\injector\Components\Components\Core.cpp(102,29): error C2510: 'Ipc': left of '::' must be a class/struct/union [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-18 17:54:06] [injector-build] msbuild: C:\Users\Konzei\dev\konzware\injector\Components\Components\Core.cpp(102,29): error C3861: 'BaseDir': identifier not found [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-18 17:54:39] [injector-build] WARNING: injector build failed: MSBuild failed (exit code 1).
+[2026-10-18 17:54:39] [injector-build] Wrote empty placeholder DLL (memory mode will be unavailable).
+[2026-10-18 17:55:10] [injector-build] Building KonzwareInjector.dll (Release|x64)...
+[2026-10-18 17:55:10] [injector-build] Using MSBuild: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+[2026-10-18 17:55:10] [injector-build] msbuild: 
+[2026-10-18 17:55:11] [injector-build] msbuild:   Core.cpp
+[2026-10-18 17:55:11] [injector-build] msbuild:   Ipc.cpp
+[2026-10-18 17:55:11] [injector-build] msbuild:   Spawn.cpp
+[2026-10-18 17:55:18] [injector-build] msbuild: LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-18 17:55:19] [injector-build] msbuild:   KonzwareInjector.vcxproj -> C:\Users\Konzei\dev\konzware\injector\x64\Release\KonzwareInjector.dll
+[2026-10-18 17:55:19] [injector-build] WARNING: injector build failed: MSBuild failed (exit code 0).
+[2026-10-18 17:55:40] [injector-build] Building KonzwareInjector.dll (Release|x64)...
+[2026-10-18 17:55:40] [injector-build] Using MSBuild: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+[2026-10-18 17:55:40] [injector-build] msbuild: 
+[2026-10-18 17:55:41] [injector-build] msbuild:   Component.cpp
+[2026-10-18 17:55:41] [injector-build] msbuild:   Console.cpp
+[2026-10-18 17:55:41] [injector-build] msbuild:   Core.cpp
+[2026-10-18 17:55:41] [injector-build] msbuild:   Events.cpp
+[2026-10-18 17:55:41] [injector-build] msbuild:   Instances.cpp
+[2026-10-18 17:55:41] [injector-build] msbuild:   Ipc.cpp
+[2026-10-18 17:55:42] [injector-build] msbuild:   Main.cpp
+[2026-10-18 17:55:42] [injector-build] msbuild:   Spawn.cpp
+[2026-10-18 17:55:42] [injector-build] msbuild:   dllmain.cpp
+[2026-10-18 17:55:42] [injector-build] msbuild:   Colors.cpp
+[2026-10-18 17:55:42] [injector-build] msbuild:   Formatting.cpp
+[2026-10-18 17:55:42] [injector-build] msbuild:   Math.cpp
+[2026-10-18 17:55:43] [injector-build] msbuild:   Memory.cpp
+[2026-10-18 17:55:43] [injector-build] msbuild:   UnrealMemory.cpp
+[2026-10-18 17:55:43] [injector-build] msbuild:   pch.cpp
+[2026-10-18 17:55:43] [injector-build] msbuild:   GameDefines.cpp
+[2026-10-18 17:55:43] [injector-build] msbuild:   AkAudio_classes.cpp
+[2026-10-18 17:55:44] [injector-build] msbuild:   Core_classes.cpp
+[2026-10-18 17:55:44] [injector-build] msbuild:   Engine_classes.cpp
+[2026-10-18 17:55:44] [injector-build] msbuild:   GFxUI_classes.cpp
+[2026-10-18 17:55:44] [injector-build] msbuild:   IpDrv_classes.cpp
+[2026-10-18 17:55:44] [injector-build] msbuild:   OnlineSubsystemEOS_classes.cpp
+[2026-10-18 17:55:44] [injector-build] msbuild:   ProjectX_classes.cpp
+[2026-10-18 17:55:44] [injector-build] msbuild:   TAGame_classes.cpp
+[2026-10-18 17:55:44] [injector-build] msbuild:   WinDrv_classes.cpp
+[2026-10-18 17:55:48] [injector-build] msbuild:   XAudio2_classes.cpp
+[2026-10-18 17:56:20] [injector-build] msbuild: LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-18 17:56:22] [injector-build] msbuild:   KonzwareInjector.vcxproj -> C:\Users\Konzei\dev\konzware\injector\bin\Release\KonzwareInjector.dll
+[2026-10-18 17:56:22] [injector-build] Build succeeded (434 KB).
+[2026-10-18 17:56:22] [injector-build] Copied to C:\Users\Konzei\dev\konzware\src-tauri\resources\konzware_injector.dll
+[2026-10-18 18:11:46] [injector-build] Building KonzwareInjector.dll (Release|x64)...
+[2026-10-18 18:11:46] [injector-build] Using MSBuild: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+[2026-10-18 18:11:46] [injector-build] msbuild: 
+[2026-10-18 18:11:47] [injector-build] msbuild:   Core.cpp
+[2026-10-18 18:11:47] [injector-build] msbuild:   Events.cpp
+[2026-10-18 18:11:47] [injector-build] msbuild:   Instances.cpp
+[2026-10-18 18:11:47] [injector-build] msbuild:   Ipc.cpp
+[2026-10-18 18:11:47] [injector-build] msbuild:   Main.cpp
+[2026-10-18 18:11:47] [injector-build] msbuild:   Spawn.cpp
+[2026-10-18 18:11:47] [injector-build] msbuild:   dllmain.cpp
+[2026-10-18 18:11:55] [injector-build] msbuild: LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-18 18:11:57] [injector-build] msbuild:   KonzwareInjector.vcxproj -> C:\Users\Konzei\dev\konzware\injector\bin\Release\KonzwareInjector.dll
+[2026-10-18 18:11:57] [injector-build] Build succeeded (438 KB).
+[2026-10-18 18:11:57] [injector-build] Copied to C:\Users\Konzei\dev\konzware\src-tauri\resources\konzware_injector.dll
+[2026-10-18 18:25:41] [injector-build] Building KonzwareInjector.dll (Release|x64)...
+[2026-10-18 18:25:41] [injector-build] Using MSBuild: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+[2026-10-18 18:25:41] [injector-build] msbuild: 
+[2026-10-18 18:25:42] [injector-build] msbuild:   KonzwareInjector.vcxproj -> C:\Users\Konzei\dev\konzware\injector\bin\Release\KonzwareInjector.dll
+[2026-10-18 18:25:42] [injector-build] Build succeeded (438 KB).
+[2026-10-18 18:25:42] [injector-build] Copied to C:\Users\Konzei\dev\konzware\src-tauri\resources\konzware_injector.dll
+[2026-10-18 18:26:11] [injector-build] Building KonzwareInjector.dll (Release|x64)...
+[2026-10-18 18:26:11] [injector-build] Using MSBuild: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+[2026-10-18 18:26:11] [injector-build] msbuild: 
+[2026-10-18 18:26:12] [injector-build] msbuild:   KonzwareInjector.vcxproj -> C:\Users\Konzei\dev\konzware\injector\bin\Release\KonzwareInjector.dll
+[2026-10-18 18:26:12] [injector-build] Build succeeded (438 KB).
+[2026-10-18 18:26:12] [injector-build] Copied to C:\Users\Konzei\dev\konzware\src-tauri\resources\konzware_injector.dll
+[2026-10-19 12:16:42] [injector-build] Building KonzwareInjector.dll (Release|x64)...
+[2026-10-19 12:16:42] [injector-build] Using MSBuild: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+[2026-10-19 12:16:42] [injector-build] msbuild: 
+[2026-10-19 12:16:43] [injector-build] msbuild:   Core.cpp
+[2026-10-19 12:16:49] [injector-build] msbuild: LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-19 12:16:50] [injector-build] msbuild:   KonzwareInjector.vcxproj -> C:\Users\Konzei\dev\konzware\injector\bin\Release\KonzwareInjector.dll
+[2026-10-19 12:16:51] [injector-build] Build succeeded (438 KB).
+[2026-10-19 12:16:51] [injector-build] Copied to C:\Users\Konzei\dev\konzware\src-tauri\resources\konzware_injector.dll
+[2026-10-19 12:18:16] [injector-build] Building KonzwareInjector.dll (Release|x64)...
+[2026-10-19 12:18:16] [injector-build] Using MSBuild: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+[2026-10-19 12:18:16] [injector-build] msbuild: 
+[2026-10-19 12:18:17] [injector-build] msbuild:   Core.cpp
+[2026-10-19 12:18:23] [injector-build] msbuild: LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-19 12:18:24] [injector-build] msbuild:   KonzwareInjector.vcxproj -> C:\Users\Konzei\dev\konzware\injector\bin\Release\KonzwareInjector.dll
+[2026-10-19 12:18:24] [injector-build] Build succeeded (438 KB).
+[2026-10-19 12:18:24] [injector-build] Copied to C:\Users\Konzei\dev\konzware\src-tauri\resources\konzware_injector.dll
+[2026-10-19 12:19:51] [injector-build] Building KonzwareInjector.dll (Release|x64)...
+[2026-10-19 12:19:51] [injector-build] Using MSBuild: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+[2026-10-19 12:19:52] [injector-build] msbuild: 
+[2026-10-19 12:19:53] [injector-build] msbuild:   Component.cpp
+[2026-10-19 12:19:53] [injector-build] msbuild:   Console.cpp
+[2026-10-19 12:19:53] [injector-build] msbuild:   Core.cpp
+[2026-10-19 12:19:53] [injector-build] msbuild:   Events.cpp
+[2026-10-19 12:19:53] [injector-build] msbuild:   Instances.cpp
+[2026-10-19 12:19:53] [injector-build] msbuild:   Ipc.cpp
+[2026-10-19 12:19:53] [injector-build] msbuild:   Main.cpp
+[2026-10-19 12:19:53] [injector-build] msbuild:   Spawn.cpp
+[2026-10-19 12:19:53] [injector-build] msbuild:   dllmain.cpp
+[2026-10-19 12:19:53] [injector-build] msbuild:   Colors.cpp
+[2026-10-19 12:19:53] [injector-build] msbuild:   Formatting.cpp
+[2026-10-19 12:19:53] [injector-build] msbuild:   Math.cpp
+[2026-10-19 12:19:53] [injector-build] msbuild:   Memory.cpp
+[2026-10-19 12:19:53] [injector-build] msbuild:   UnrealMemory.cpp
+[2026-10-19 12:19:53] [injector-build] msbuild:   pch.cpp
+[2026-10-19 12:19:53] [injector-build] msbuild:   GameDefines.cpp
+[2026-10-19 12:19:53] [injector-build] msbuild:   AkAudio_classes.cpp
+[2026-10-19 12:19:53] [injector-build] msbuild:   Core_classes.cpp
+[2026-10-19 12:19:53] [injector-build] msbuild:   Engine_classes.cpp
+[2026-10-19 12:19:53] [injector-build] msbuild:   GFxUI_classes.cpp
+[2026-10-19 12:19:53] [injector-build] msbuild:   IpDrv_classes.cpp
+[2026-10-19 12:19:53] [injector-build] msbuild:   OnlineSubsystemEOS_classes.cpp
+[2026-10-19 12:19:53] [injector-build] msbuild:   ProjectX_classes.cpp
+[2026-10-19 12:19:53] [injector-build] msbuild:   TAGame_classes.cpp
+[2026-10-19 12:19:56] [injector-build] msbuild:   WinDrv_classes.cpp
+[2026-10-19 12:19:59] [injector-build] msbuild:   XAudio2_classes.cpp
+[2026-10-19 12:19:59] [injector-build] msbuild: C:\Users\Konzei\dev\konzware\injector\Components\Components\Events.cpp(175,23): error C2712: Cannot use __try in functions that require object unwinding [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-19 12:20:33] [injector-build] WARNING: injector build failed: MSBuild failed (exit code 1).
+[2026-10-19 12:20:43] [injector-build] Building KonzwareInjector.dll (Release|x64)...
+[2026-10-19 12:20:43] [injector-build] Using MSBuild: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+[2026-10-19 12:20:43] [injector-build] msbuild: 
+[2026-10-19 12:20:44] [injector-build] msbuild:   Core.cpp
+[2026-10-19 12:20:44] [injector-build] msbuild:   Events.cpp
+[2026-10-19 12:20:50] [injector-build] msbuild: LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-19 12:20:51] [injector-build] msbuild:   KonzwareInjector.vcxproj -> C:\Users\Konzei\dev\konzware\injector\bin\Release\KonzwareInjector.dll
+[2026-10-19 12:20:52] [injector-build] Build succeeded (454.5 KB).
+[2026-10-19 12:20:52] [injector-build] Copied to C:\Users\Konzei\dev\konzware\src-tauri\resources\konzware_injector.dll
+[2026-10-19 12:22:19] [injector-build] Building KonzwareInjector.dll (Release|x64)...
+[2026-10-19 12:22:19] [injector-build] Using MSBuild: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+[2026-10-19 12:22:20] [injector-build] msbuild: 
+[2026-10-19 12:22:21] [injector-build] msbuild:   Core.cpp
+[2026-10-19 12:22:26] [injector-build] msbuild: LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-19 12:22:27] [injector-build] msbuild:   KonzwareInjector.vcxproj -> C:\Users\Konzei\dev\konzware\injector\bin\Release\KonzwareInjector.dll
+[2026-10-19 12:22:27] [injector-build] Build succeeded (461 KB).
+[2026-10-19 12:22:27] [injector-build] Copied to C:\Users\Konzei\dev\konzware\src-tauri\resources\konzware_injector.dll
+[2026-10-19 12:26:21] [injector-build] Building KonzwareInjector.dll (Release|x64)...
+[2026-10-19 12:26:22] [injector-build] Using MSBuild: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+[2026-10-19 12:26:22] [injector-build] msbuild: 
+[2026-10-19 12:26:23] [injector-build] msbuild:   Core.cpp
+[2026-10-19 12:26:29] [injector-build] msbuild: LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-19 12:26:30] [injector-build] msbuild:   KonzwareInjector.vcxproj -> C:\Users\Konzei\dev\konzware\injector\bin\Release\KonzwareInjector.dll
+[2026-10-19 12:26:30] [injector-build] Build succeeded (461 KB).
+[2026-10-19 12:26:30] [injector-build] Copied to C:\Users\Konzei\dev\konzware\src-tauri\resources\konzware_injector.dll
+[2026-10-19 12:29:40] [injector-build] Building KonzwareInjector.dll (Release|x64)...
+[2026-10-19 12:29:40] [injector-build] Using MSBuild: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+[2026-10-19 12:29:40] [injector-build] msbuild: 
+[2026-10-19 12:29:41] [injector-build] msbuild:   KonzwareInjector.vcxproj -> C:\Users\Konzei\dev\konzware\injector\bin\Release\KonzwareInjector.dll
+[2026-10-19 12:29:41] [injector-build] Build succeeded (461 KB).
+[2026-10-19 12:29:41] [injector-build] Copied to C:\Users\Konzei\dev\konzware\src-tauri\resources\konzware_injector.dll
+[2026-10-19 12:38:17] [injector-build] Building KonzwareInjector.dll (Release|x64)...
+[2026-10-19 12:38:17] [injector-build] Using MSBuild: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+[2026-10-19 12:38:18] [injector-build] msbuild: 
+[2026-10-19 12:38:19] [injector-build] msbuild:   KonzwareInjector.vcxproj -> C:\Users\Konzei\dev\konzware\injector\bin\Release\KonzwareInjector.dll
+[2026-10-19 12:38:19] [injector-build] Build succeeded (461 KB).
+[2026-10-19 12:38:19] [injector-build] Copied to C:\Users\Konzei\dev\konzware\src-tauri\resources\konzware_injector.dll
+[2026-10-19 13:20:41] [injector-build] Building KonzwareInjector.dll (Release|x64)...
+[2026-10-19 13:20:42] [injector-build] Using MSBuild: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+[2026-10-19 13:20:42] [injector-build] msbuild: 
+[2026-10-19 13:20:43] [injector-build] msbuild:   Core.cpp
+[2026-10-19 13:20:49] [injector-build] msbuild: LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-19 13:20:51] [injector-build] msbuild:   KonzwareInjector.vcxproj -> C:\Users\Konzei\dev\konzware\injector\bin\Release\KonzwareInjector.dll
+[2026-10-19 13:20:51] [injector-build] Build succeeded (461 KB).
+[2026-10-19 13:20:51] [injector-build] Copied to C:\Users\Konzei\dev\konzware\src-tauri\resources\konzware_injector.dll
+[2026-10-19 13:26:09] [injector-build] Building KonzwareInjector.dll (Release|x64)...
+[2026-10-19 13:26:09] [injector-build] Using MSBuild: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+[2026-10-19 13:26:10] [injector-build] msbuild: 
+[2026-10-19 13:26:11] [injector-build] msbuild:   Core.cpp
+[2026-10-19 13:26:11] [injector-build] msbuild:   Events.cpp
+[2026-10-19 13:26:15] [injector-build] msbuild: C:\Users\Konzei\dev\konzware\injector\Components\Components\Events.cpp(207,2): error C2713: Only one form of exception handling permitted per function [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-19 13:26:15] [injector-build] msbuild: C:\Users\Konzei\dev\konzware\injector\Components\Components\Events.cpp(225,4): error C2713: Only one form of exception handling permitted per function [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-19 13:26:15] [injector-build] msbuild: C:\Users\Konzei\dev\konzware\injector\Components\Components\Events.cpp(175,23): error C2712: Cannot use __try in functions that require object unwinding [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-19 13:26:15] [injector-build] msbuild: C:\Users\Konzei\dev\konzware\injector\Components\Components\Core.cpp(164,35): error C2248: 'IpcComponent::GameThreadAlive': cannot access private member declared in class 'IpcComponent' [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-19 13:26:15] [injector-build] msbuild:       C:\Users\Konzei\dev\konzware\injector\Components\Components\Ipc.hpp(81,23):
+[2026-10-19 13:26:15] [injector-build] msbuild:       see declaration of 'IpcComponent::GameThreadAlive'
+[2026-10-19 13:26:15] [injector-build] msbuild:       C:\Users\Konzei\dev\konzware\injector\Components\Components\Ipc.hpp(30,7):
+[2026-10-19 13:26:15] [injector-build] msbuild:       see declaration of 'IpcComponent'
+[2026-10-19 13:26:15] [injector-build] msbuild:   
+[2026-10-19 13:26:15] [injector-build] msbuild: C:\Users\Konzei\dev\konzware\injector\Components\Components\Core.cpp(174,31): error C2248: 'IpcComponent::GameThreadAlive': cannot access private member declared in class 'IpcComponent' [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-19 13:26:15] [injector-build] msbuild:       C:\Users\Konzei\dev\konzware\injector\Components\Components\Ipc.hpp(81,23):
+[2026-10-19 13:26:15] [injector-build] msbuild:       see declaration of 'IpcComponent::GameThreadAlive'
+[2026-10-19 13:26:15] [injector-build] msbuild:       C:\Users\Konzei\dev\konzware\injector\Components\Components\Ipc.hpp(30,7):
+[2026-10-19 13:26:15] [injector-build] msbuild:       see declaration of 'IpcComponent'
+[2026-10-19 13:26:15] [injector-build] msbuild:   
+[2026-10-19 13:26:16] [injector-build] WARNING: injector build failed: MSBuild failed (exit code 1).
+[2026-10-19 13:26:38] [injector-build] Building KonzwareInjector.dll (Release|x64)...
+[2026-10-19 13:26:38] [injector-build] Using MSBuild: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+[2026-10-19 13:26:38] [injector-build] msbuild: 
+[2026-10-19 13:26:40] [injector-build] msbuild:   Core.cpp
+[2026-10-19 13:26:40] [injector-build] msbuild:   Events.cpp
+[2026-10-19 13:26:40] [injector-build] msbuild:   Instances.cpp
+[2026-10-19 13:26:40] [injector-build] msbuild:   Ipc.cpp
+[2026-10-19 13:26:40] [injector-build] msbuild:   Main.cpp
+[2026-10-19 13:26:40] [injector-build] msbuild:   Spawn.cpp
+[2026-10-19 13:26:40] [injector-build] msbuild:   dllmain.cpp
+[2026-10-19 13:26:45] [injector-build] msbuild: C:\Users\Konzei\dev\konzware\injector\Components\Components\Events.cpp(124,3): error C2065: 'Manager': undeclared identifier [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-19 13:26:45] [injector-build] msbuild: C:\Users\Konzei\dev\konzware\injector\Components\Components\Events.cpp(154,6): error C2065: 'GUI': undeclared identifier [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-19 13:26:45] [injector-build] msbuild: C:\Users\Konzei\dev\konzware\injector\Components\Components\Events.cpp(154,20): error C2065: 'GUI': undeclared identifier [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-19 13:26:45] [injector-build] msbuild: C:\Users\Konzei\dev\konzware\injector\Components\Components\Events.cpp(162,3): error C2065: 'GameState': undeclared identifier [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-19 13:26:47] [injector-build] WARNING: injector build failed: MSBuild failed (exit code 1).
+[2026-10-19 13:27:21] [injector-build] Building KonzwareInjector.dll (Release|x64)...
+[2026-10-19 13:27:21] [injector-build] Using MSBuild: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+[2026-10-19 13:27:21] [injector-build] msbuild: 
+[2026-10-19 13:27:22] [injector-build] msbuild:   Events.cpp
+[2026-10-19 13:27:26] [injector-build] msbuild: C:\Users\Konzei\dev\konzware\injector\Components\Components\Events.cpp(125,3): error C2065: 'Manager': undeclared identifier [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-19 13:27:26] [injector-build] msbuild: C:\Users\Konzei\dev\konzware\injector\Components\Components\Events.cpp(155,6): error C2065: 'GUI': undeclared identifier [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-19 13:27:26] [injector-build] msbuild: C:\Users\Konzei\dev\konzware\injector\Components\Components\Events.cpp(155,20): error C2065: 'GUI': undeclared identifier [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-19 13:27:26] [injector-build] msbuild: C:\Users\Konzei\dev\konzware\injector\Components\Components\Events.cpp(163,3): error C2065: 'GameState': undeclared identifier [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-19 13:27:26] [injector-build] WARNING: injector build failed: MSBuild failed (exit code 1).
+[2026-10-19 13:27:33] [injector-build] Building KonzwareInjector.dll (Release|x64)...
+[2026-10-19 13:27:33] [injector-build] Using MSBuild: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+[2026-10-19 13:27:33] [injector-build] msbuild: 
+[2026-10-19 13:27:34] [injector-build] msbuild:   Events.cpp
+[2026-10-19 13:27:39] [injector-build] msbuild: LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-19 13:27:41] [injector-build] msbuild:   KonzwareInjector.vcxproj -> C:\Users\Konzei\dev\konzware\injector\bin\Release\KonzwareInjector.dll
+[2026-10-19 13:27:41] [injector-build] Build succeeded (463 KB).
+[2026-10-19 13:27:41] [injector-build] Copied to C:\Users\Konzei\dev\konzware\src-tauri\resources\konzware_injector.dll
+[2026-10-19 13:39:37] [injector-build] Building KonzwareInjector.dll (Release|x64)...
+[2026-10-19 13:39:37] [injector-build] Using MSBuild: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+[2026-10-19 13:39:38] [injector-build] msbuild: 
+[2026-10-19 13:39:39] [injector-build] msbuild:   Core.cpp
+[2026-10-19 13:39:45] [injector-build] msbuild: LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-19 13:39:47] [injector-build] msbuild:   KonzwareInjector.vcxproj -> C:\Users\Konzei\dev\konzware\injector\bin\Release\KonzwareInjector.dll
+[2026-10-19 13:39:47] [injector-build] Build succeeded (463 KB).
+[2026-10-19 13:39:47] [injector-build] Copied to C:\Users\Konzei\dev\konzware\src-tauri\resources\konzware_injector.dll
+[2026-10-19 13:46:33] [injector-build] Building KonzwareInjector.dll (Release|x64)...
+[2026-10-19 13:46:33] [injector-build] Using MSBuild: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+[2026-10-19 13:46:33] [injector-build] msbuild: 
+[2026-10-19 13:46:34] [injector-build] msbuild:   Events.cpp
+[2026-10-19 13:46:40] [injector-build] msbuild: LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-19 13:46:41] [injector-build] msbuild:   KonzwareInjector.vcxproj -> C:\Users\Konzei\dev\konzware\injector\bin\Release\KonzwareInjector.dll
+[2026-10-19 13:46:41] [injector-build] Build succeeded (463 KB).
+[2026-10-19 13:46:41] [injector-build] Copied to C:\Users\Konzei\dev\konzware\src-tauri\resources\konzware_injector.dll
+[2026-10-19 14:13:52] [injector-build] Building KonzwareInjector.dll (Release|x64)...
+[2026-10-19 14:13:52] [injector-build] Using MSBuild: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+[2026-10-19 14:13:53] [injector-build] msbuild: 
+[2026-10-19 14:13:54] [injector-build] msbuild:   Core.cpp
+[2026-10-19 14:13:59] [injector-build] msbuild: LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-19 14:14:01] [injector-build] msbuild:   KonzwareInjector.vcxproj -> C:\Users\Konzei\dev\konzware\injector\bin\Release\KonzwareInjector.dll
+[2026-10-19 14:14:01] [injector-build] Build succeeded (465.5 KB).
+[2026-10-19 14:14:01] [injector-build] Copied to C:\Users\Konzei\dev\konzware\src-tauri\resources\konzware_injector.dll
+[2026-10-19 14:16:18] [injector-build] Building KonzwareInjector.dll (Release|x64)...
+[2026-10-19 14:16:18] [injector-build] Using MSBuild: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+[2026-10-19 14:16:18] [injector-build] msbuild: 
+[2026-10-19 14:16:19] [injector-build] msbuild:   KonzwareInjector.vcxproj -> C:\Users\Konzei\dev\konzware\injector\bin\Release\KonzwareInjector.dll
+[2026-10-19 14:16:19] [injector-build] Build succeeded (465.5 KB).
+[2026-10-19 14:16:19] [injector-build] Copied to C:\Users\Konzei\dev\konzware\src-tauri\resources\konzware_injector.dll
+[2026-10-19 14:20:23] [injector-build] Building KonzwareInjector.dll (Release|x64)...
+[2026-10-19 14:20:24] [injector-build] Using MSBuild: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+[2026-10-19 14:20:24] [injector-build] msbuild: 
+[2026-10-19 14:20:25] [injector-build] msbuild:   KonzwareInjector.vcxproj -> C:\Users\Konzei\dev\konzware\injector\bin\Release\KonzwareInjector.dll
+[2026-10-19 14:20:25] [injector-build] Build succeeded (465.5 KB).
+[2026-10-19 14:20:25] [injector-build] Copied to C:\Users\Konzei\dev\konzware\src-tauri\resources\konzware_injector.dll
+[2026-10-19 14:25:52] [injector-build] Building KonzwareInjector.dll (Release|x64)...
+[2026-10-19 14:25:52] [injector-build] Using MSBuild: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+[2026-10-19 14:25:52] [injector-build] msbuild: 
+[2026-10-19 14:25:53] [injector-build] msbuild:   Core.cpp
+[2026-10-19 14:25:59] [injector-build] msbuild: LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-19 14:26:01] [injector-build] msbuild:   KonzwareInjector.vcxproj -> C:\Users\Konzei\dev\konzware\injector\bin\Release\KonzwareInjector.dll
+[2026-10-19 14:26:01] [injector-build] Build succeeded (463.5 KB).
+[2026-10-19 14:26:01] [injector-build] Copied to C:\Users\Konzei\dev\konzware\src-tauri\resources\konzware_injector.dll
+[2026-10-19 14:32:51] [injector-build] Building KonzwareInjector.dll (Release|x64)...
+[2026-10-19 14:32:52] [injector-build] Using MSBuild: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+[2026-10-19 14:32:52] [injector-build] msbuild: 
+[2026-10-19 14:32:53] [injector-build] msbuild:   KonzwareInjector.vcxproj -> C:\Users\Konzei\dev\konzware\injector\bin\Release\KonzwareInjector.dll
+[2026-10-19 14:32:53] [injector-build] Build succeeded (463.5 KB).
+[2026-10-19 14:32:53] [injector-build] Copied to C:\Users\Konzei\dev\konzware\src-tauri\resources\konzware_injector.dll
+[2026-10-19 14:39:18] [injector-build] Building KonzwareInjector.dll (Release|x64)...
+[2026-10-19 14:39:18] [injector-build] Using MSBuild: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+[2026-10-19 14:39:18] [injector-build] msbuild: 
+[2026-10-19 14:39:19] [injector-build] msbuild:   Core.cpp
+[2026-10-19 14:39:25] [injector-build] msbuild: LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-19 14:39:27] [injector-build] msbuild:   KonzwareInjector.vcxproj -> C:\Users\Konzei\dev\konzware\injector\bin\Release\KonzwareInjector.dll
+[2026-10-19 14:39:27] [injector-build] Build succeeded (447.5 KB).
+[2026-10-19 14:39:27] [injector-build] Copied to C:\Users\Konzei\dev\konzware\src-tauri\resources\konzware_injector.dll
+[2026-10-19 14:42:50] [injector-build] Building KonzwareInjector.dll (Release|x64)...
+[2026-10-19 14:42:50] [injector-build] Using MSBuild: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+[2026-10-19 14:42:51] [injector-build] msbuild: 
+[2026-10-19 14:42:52] [injector-build] msbuild:   Core.cpp
+[2026-10-19 14:42:52] [injector-build] msbuild:   Events.cpp
+[2026-10-19 14:42:52] [injector-build] msbuild:   Instances.cpp
+[2026-10-19 14:42:52] [injector-build] msbuild:   Ipc.cpp
+[2026-10-19 14:42:52] [injector-build] msbuild:   Main.cpp
+[2026-10-19 14:42:52] [injector-build] msbuild:   Spawn.cpp
+[2026-10-19 14:42:52] [injector-build] msbuild:   dllmain.cpp
+[2026-10-19 14:42:57] [injector-build] msbuild: C:\Users\Konzei\dev\konzware\injector\Components\Components\Ipc.cpp(435,3): error C2318: no try block associated with this catch handler [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-19 14:42:57] [injector-build] msbuild: C:\Users\Konzei\dev\konzware\injector\Components\Components\Ipc.cpp(403,3): error C2317: 'try' block starting on line '403' has no catch handlers [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-19 14:42:57] [injector-build] msbuild: C:\Users\Konzei\dev\konzware\injector\Components\Components\Ipc.cpp(467,20): error C2601: 'IpcComponent::WorkerThreadProc': local function definitions are illegal [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-19 14:42:57] [injector-build] msbuild:       C:\Users\Konzei\dev\konzware\injector\Components\Components\Ipc.cpp(393,1):
+[2026-10-19 14:42:57] [injector-build] msbuild:       this line contains a '{' which has not yet been matched
+[2026-10-19 14:42:57] [injector-build] msbuild:   
+[2026-10-19 14:42:57] [injector-build] msbuild: C:\Users\Konzei\dev\konzware\injector\Components\Components\Ipc.cpp(472,20): error C2601: 'IpcComponent::WorkerLoop': local function definitions are illegal [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-19 14:42:57] [injector-build] msbuild:       C:\Users\Konzei\dev\konzware\injector\Components\Components\Ipc.cpp(393,1):
+[2026-10-19 14:42:57] [injector-build] msbuild:       this line contains a '{' which has not yet been matched
+[2026-10-19 14:42:57] [injector-build] msbuild:   
+[2026-10-19 14:42:57] [injector-build] msbuild: C:\Users\Konzei\dev\konzware\injector\Components\Components\Ipc.cpp(393,1): error C1075: '{': no matching token found [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-19 14:42:58] [injector-build] WARNING: injector build failed: MSBuild failed (exit code 1).
+[2026-10-19 14:43:08] [injector-build] Building KonzwareInjector.dll (Release|x64)...
+[2026-10-19 14:43:08] [injector-build] Using MSBuild: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+[2026-10-19 14:43:09] [injector-build] msbuild: 
+[2026-10-19 14:43:10] [injector-build] msbuild:   Ipc.cpp
+[2026-10-19 14:43:16] [injector-build] msbuild: LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-19 14:43:16] [injector-build] msbuild: Ipc.obj : error LNK2019: unresolved external symbol "public: class UOnlineProduct_TA * __cdecl TitleComponent::SpawnTitle(int,int,int,bool,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool)" (?SpawnTitle@TitleComponent@@QEAAPEAVUOnlineProduct_TA@@HHH_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z) referenced in function "public: static void __cdecl IpcComponent::ExecuteBatchChunk(class std::shared_ptr<struct IpcComponent::BatchState>)" (?ExecuteBatchChunk@IpcComponent@@SAXV?$shared_ptr@UBatchState@IpcComponent@@@std@@@Z) [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-19 14:43:16] [injector-build] msbuild: Ipc.obj : error LNK2001: unresolved external symbol "class TitleComponent Titles" (?Titles@@3VTitleComponent@@A) [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-19 14:43:16] [injector-build] msbuild: C:\Users\Konzei\dev\konzware\injector\bin\Release\KonzwareInjector.dll : fatal error LNK1120: 2 unresolved externals [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-19 14:43:16] [injector-build] WARNING: injector build failed: MSBuild failed (exit code 1).
+[2026-10-19 14:43:23] [injector-build] Building KonzwareInjector.dll (Release|x64)...
+[2026-10-19 14:43:23] [injector-build] Using MSBuild: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+[2026-10-19 14:43:23] [injector-build] msbuild: 
+[2026-10-19 14:43:24] [injector-build] msbuild:   Titles.cpp
+[2026-10-19 14:43:25] [injector-build] msbuild: C:\Users\Konzei\dev\konzware\injector\Components\Components\Titles.cpp(1,9): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-19 14:43:25] [injector-build] msbuild:       C:\Users\Konzei\dev\konzware\injector\Components\Components\Titles.cpp(1,9):
+[2026-10-19 14:43:25] [injector-build] msbuild:       '_CRT_SECURE_NO_WARNINGS' previously declared on the command line
+[2026-10-19 14:43:25] [injector-build] msbuild:   
+[2026-10-19 14:43:30] [injector-build] msbuild: LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-19 14:43:31] [injector-build] msbuild:   KonzwareInjector.vcxproj -> C:\Users\Konzei\dev\konzware\injector\bin\Release\KonzwareInjector.dll
+[2026-10-19 14:43:31] [injector-build] Build succeeded (470 KB).
+[2026-10-19 14:43:31] [injector-build] Copied to C:\Users\Konzei\dev\konzware\src-tauri\resources\konzware_injector.dll
+[2026-10-19 14:47:46] [injector-build] Building KonzwareInjector.dll (Release|x64)...
+[2026-10-19 14:47:46] [injector-build] Using MSBuild: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+[2026-10-19 14:47:46] [injector-build] msbuild: 
+[2026-10-19 14:47:47] [injector-build] msbuild:   Core.cpp
+[2026-10-19 14:47:54] [injector-build] msbuild: LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\Users\Konzei\dev\konzware\injector\KonzwareInjector.vcxproj]
+[2026-10-19 14:47:56] [injector-build] msbuild:   KonzwareInjector.vcxproj -> C:\Users\Konzei\dev\konzware\injector\bin\Release\KonzwareInjector.dll
+[2026-10-19 14:47:56] [injector-build] Build succeeded (470.5 KB).
+[2026-10-19 14:47:56] [injector-build] Copied to C:\Users\Konzei\dev\konzware\src-tauri\resources\konzware_injector.dll

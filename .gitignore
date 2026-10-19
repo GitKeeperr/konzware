@@ -120,6 +120,10 @@ src-tauri/target-check/
 *.dll
 build_log.txt
 
+# Injector DLL build artifacts (DLL itself is generated into src-tauri/resources at build time)
+/injector/bin/
+/injector/obj/
+
 # Snapshots and raw UPK dumps
 tools/snapshots/
 *.upk

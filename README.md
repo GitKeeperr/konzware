@@ -30,6 +30,14 @@ Swap any item in the game with any other item — car bodies, wheels, boosts, de
 ### Name Spoofer
 Change your display name locally in menus, scoreboards, and nametags to any name you want without altering your external account.
 
+### Item Spawner
+Spawn any item in the game directly into your Garage — with any paint color — using two selectable methods:
+
+- **Proxy (online)** — grants items through Konzware's network spoof. Works with Easy Anti-Cheat and online play; keep Konzware running while you play.
+- **Memory (offline)** — injects a small companion DLL into Rocket League launched *without* Easy Anti-Cheat. Items appear instantly via the game's own grant pipeline, no restart needed. Session-only and offline-only; Konzware refuses to touch any EAC-protected process.
+
+"Spawn All" creates the base version of every catalog item, and can be reverted from Swapper › Restore.
+
 ### Credit Spoof
 Customize your displayed Item Shop and Tournament credits locally to test or record UI views.
 
